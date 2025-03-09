@@ -98,7 +98,7 @@ The library provides clear error messages for common issues:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/g-guerzoni/cursor-request-counter-browser-extension.git
+git clone https://github.com/g-guerzoni/brazilian-barcode-boleto.git
 cd brazilian-barcode-boleto
 ```
 
