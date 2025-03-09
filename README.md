@@ -3,11 +3,13 @@
 Normalize Brazilians barcode
 
 **Bank barcode**
-* Order bank barcode
-* Get Verifying Digit
+
+- Order bank barcode
+- Get Verifying Digit
 
 **Bill barcode (soon)**
-* Get Verifying Digit
+
+- Get Verifying Digit
 
 ======
 
@@ -16,11 +18,13 @@ Normalize Brazilians barcode
 Normaliza código de boletos
 
 **Boleto bancário**
-* Ordena o código de barras
-* Calcula o digito verificador
+
+- Ordena o código de barras
+- Calcula o digito verificador
 
 **Boleto de conta (breve)**
-* Calcula o digito verificador
+
+- Calcula o digito verificador
 
 ======
 
@@ -37,4 +41,4 @@ Normaliza código de boletos
 var bb = require("brazilian-barcode")
 bb.digit.getVDBank("23792770900000699900593090000046776700017510", true)
 // return 23792770900000699900593090000046776700017510
- ```
+```
