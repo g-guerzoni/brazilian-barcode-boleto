@@ -1,12 +1,11 @@
-# Brazilian Barcode
+# Brazilian Barcode Boleto
 
 A TypeScript library for handling Brazilian bank barcodes (boletos) verification digits calculation.
 
-[![npm version](https://badge.fury.io/js/brazilian-barcode.svg)](https://badge.fury.io/js/brazilian-barcode)
+[![npm version](https://badge.fury.io/js/brazilian-barcode-boleto.svg)](https://badge.fury.io/js/brazilian-barcode-boleto)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Features
-
 - Calculate verification digits for Brazilian bank barcodes (boletos)
 - Support for barcode reordering
 - TypeScript support with full type definitions
@@ -17,12 +16,12 @@ A TypeScript library for handling Brazilian bank barcodes (boletos) verification
 
 Using npm:
 ```bash
-npm install brazilian-barcode
+npm install brazilian-barcode-boleto
 ```
 
 Using yarn:
 ```bash
-yarn add brazilian-barcode
+yarn add brazilian-barcode-boleto
 ```
 
 ## Usage
@@ -30,7 +29,7 @@ yarn add brazilian-barcode
 ### Basic Usage
 
 ```typescript
-import { brazilianBarcode } from 'brazilian-barcode';
+import { brazilianBarcode } from 'brazilian-barcode-boleto';
 
 // Calculate verification digits for a bank barcode
 const barcode = '23793381286000782713695000063305975520000370000';
@@ -46,7 +45,7 @@ const resultWithReorder = brazilianBarcode.digit.getVDBank(barcode, true);
 The library includes TypeScript definitions out of the box:
 
 ```typescript
-import { BrazilianBarcode, BarcodeVerificationResult } from 'brazilian-barcode';
+import { BrazilianBarcode, BarcodeVerificationResult } from 'brazilian-barcode-boleto';
 
 // Use types in your code
 const processBarcode = (barcode: string): BarcodeVerificationResult => {
@@ -99,8 +98,8 @@ The library provides clear error messages for common issues:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/Guercione/brazilian-barcode.git
-cd brazilian-barcode
+git clone https://github.com/g-guerzoni/cursor-request-counter-browser-extension.git
+cd brazilian-barcode-boleto
 ```
 
 2. Install dependencies:
@@ -137,15 +136,22 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Author
 
-Guilherme Guercione (https://github.com/Guercione)
+Guilherme Guerzoni (https://github.com/g-guerzoni)
 
 ## Changelog
 
-### 0.0.2
+### 0.2.1
+- Added MIT LICENSE
+- Renamed project to brazilian-barcode-boleto
+
+### 0.2.0
 - Added TypeScript support
-- Improved code organization
 - Added comprehensive test suite
 - Added proper documentation
+- Improved code organization
+
+### 0.0.2
+- Minor fix change
 
 ### 0.0.1
 - Initial release
